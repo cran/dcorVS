@@ -1,0 +1,9 @@
+decb48e2ea5758fabe48225f8b656685 *DESCRIPTION
+285b1f46bb61d1c123b1bae0d137c894 *NAMESPACE
+c3352e626f8c03fac556c0acbc967c70 *R/dcor.bs.R
+f619bf3d34362523d7814b84268023f9 *R/dcor.bsmmpc.R
+d775c6f2bd47bd6a1e8824dbffc3aa16 *R/dcor.fbed.R
+d44b7a736b8c29135b1f0d627f09bbed *R/dcor.mmpc.R
+167ec425cb5f0720a31208098c4d3412 *man/dcor.bsmmpc.Rd
+514c9e55d4b1d1f3479905d801a0e0a9 *man/dcor.mmpc.Rd
+2ad970fad2f227c7109a9941ca0a2be7 *man/dcorVS-package.Rd
