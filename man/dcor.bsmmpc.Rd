@@ -40,7 +40,8 @@ computational times. When the sample size is small (e.g., \eqn{<50} observations
 should be 3 for example, otherwise the conditional independence test may not be able to provide
 reliable results.
 
-The dcor.bs() performs the classical backward selection.
+The dcor.bs() performs the classical backward selection and the p-values are computed asymptotically, whereas for the dcor.bsmmpc() they are computed via prermutations.
+
 }
 
 \value{
@@ -49,7 +50,7 @@ A list including:
 The duration of the algorithm.
 }
 \item{res}{
-A matrix with all variables and their corresponding (logarithm) of the p-values of the updated associations. 
+A matrix with all variables and their corresponding (logarithm) of the p-values of the updated associations.
 For the mmpc algorithm, the final p-value is the maximum p-value among the two p-values in the end.
 }
 }
@@ -63,6 +64,8 @@ Annals of Statistics, 42(6): 2382--2412.
 Huo X. and Szekely G.J. (2016). Fast computing for distance covariance.
 Technometrics, 58(4): 435--447.
 
+Shen C., Panda S. & Vogelstein J. T. (2022). The chi-square test of distance correlation. Journal of Computational and Graphical Statistics, 31(1): 254--262.
+
 Tsamardinos I., Aliferis C. F. and Statnikov A. (2003). Time and sample efficient discovery of Markov
 blankets and direct causal relations. In Proceedings of the ninth ACM SIGKDD international Conference
 on Knowledge Discovery and Data Mining (pp. 673--678). ACM.
@@ -70,7 +73,7 @@ on Knowledge Discovery and Data Mining (pp. 673--678). ACM.
 Brown L. E., Tsamardinos I. and Aliferis C. F. (2004). A novel algorithm for scalable and accurate
 Bayesian network learning. Medinfo, 711--715.
 
-Borboudakis G. and Tsamardinos I. (2019). Forward-backward selection with early dropping. 
+Borboudakis G. and Tsamardinos I. (2019). Forward-backward selection with early dropping.
 Journal of Machine Learning Research, 20(8): 1--39.
 }
 

@@ -11,8 +11,8 @@ The 'FBED' and 'mmpc' variable selection algorithms have been implemented using 
 \tabular{lll}{
 Package: \tab dcorVS\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2023-10-17\cr
+Version: \tab 1.1\cr
+Date: \tab 2023-12-10\cr
 License: \tab GPL-2\cr
 }
 }
